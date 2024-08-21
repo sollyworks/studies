@@ -1,0 +1,72 @@
+.s-todoslist {
+  margin-top: 6rem;
+  width: 100%;
+}
+
+.s-todoslist .dataWrapper {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.s-todoslist .dataWrapper .createdTasks,
+.finishedTasks {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.s-todoslist .dataWrapper .createdTasks h3,
+.finishedTasks h3 {
+  font-weight: bold;
+  font-size: var(--font-large);
+  color: var(--blue);
+}
+
+.s-todoslist .dataWrapper .createdTasks span,
+.finishedTasks span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--gray-400);
+  color: var(--gray-200);
+  font-weight: bold;
+  font-size: var(--font-small);
+  padding: 2px 8px;
+  border-radius: 100px;
+}
+
+.s-todoslist .dataWrapper .finishedTasks h3 {
+  color: var(--purple);
+}
+
+.s-todoslist .defaultInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border-top: 1px solid var(--gray-400);
+  margin-top: 1.5rem;
+  padding: 4rem 0px;
+  gap: 1rem;
+}
+
+.s-todoslist .defaultInfo p {
+  font-size: var(--font-large);
+  color: var(--gray-300);
+  line-height: 140%;
+}
+
+.s-todoslist .defaultInfo strong {
+  display: block;
+}
+
+.s-todoslist .todoList {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
